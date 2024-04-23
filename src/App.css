@@ -50,20 +50,10 @@
     width: 20px;
   }
   .navbar {
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     height: 80px; /* Set the height of the Navbar */
   }
   
   .navbar-brand img {
     width: auto; /* Adjust the width to maintain aspect ratio */
     height: 60px; /* Set the height of the logo */
-  }
-  .accordion-body {
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-  }
-  
-  .accordion-body.show {
-    opacity: 1;
   }
