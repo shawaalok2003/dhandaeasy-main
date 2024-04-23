@@ -11,7 +11,7 @@ const About = () => {
         <header className="header-about">
       <Container>
         <div className="header-content">
-          <h1 className="header-title">About</h1>
+          <h1 className="header-title"></h1>
         </div>
       </Container>
     </header>
@@ -21,10 +21,10 @@ const About = () => {
           <br/>
           <h2 className='about-title'>Our Mission</h2>
           <p>
-          <b>DhandaEasy</b>, founded in 2024, has no legacy!
+          <b>DhandaEasy</b>, is a business consultancy firm founded in 2024 with a clear mission: to empower entrepreneurs and startups to turn their business plans into successful ventures. We have no legacy, but we are committed to making a significant impact in the business world.
           <br/>
           <br/>
-          <b>DhandaEasy</b> has made it their priority to just Netflix & Chill...
+          <b>DhandaEasy</b> we prioritize simplicity and effectiveness. Our approach is straightforward – we help you navigate the complexities of starting and scaling a business while ensuring that you have the resources and support needed to thrive. Whether you're just starting out or looking to grow your existing business, we're here to help you achieve your goals.
           </p>
         </Col>
         <Col xs={12} md={6}>

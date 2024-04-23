@@ -9,8 +9,8 @@ export const Banner = () => {
         <Col xs={12} md={6}>
           <div className="banner-content">
             <h1>Interested in how your Business Solutions measure up?</h1>
-            <p>One Suggestion...DONT!</p>
-            <Button variant="primary" size="lg">Enquire Uselessly</Button>
+            <p>Do Not Hesitate</p>
+            <Button variant="primary" size="lg">Enquire</Button>
           </div>
         </Col>
       </Row>

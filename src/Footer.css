@@ -1,0 +1,31 @@
+.footer {
+    background-color: #000000;
+    padding: 50px 0;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .service-list, .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .service-list li, .contact-list li {
+    margin-bottom: 10px;
+  }
+  
+  .service-list li:before, .contact-list li:before {
+    content: '\2022'; /* Bullet point */
+    color: #ffffff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  hr {
+    border-color: #ffffff;
+    margin: 30px 0;
+  }

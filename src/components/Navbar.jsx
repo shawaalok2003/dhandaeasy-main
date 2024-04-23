@@ -1,6 +1,7 @@
 
 import { Navbar, Container, Nav, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import '../App.css';
 
 const NavbarComponent = () => {
   const emailAddress = 'dhandaeasy@gmail.com';
@@ -8,9 +9,9 @@ const NavbarComponent = () => {
   return (
     <Navbar bg="light" expand="lg" className="sticky-top">
   <Container>
-    <Navbar.Brand as={Link} to="/">
-      <h2>DhandaEasy</h2>
-    </Navbar.Brand>
+  <Navbar.Brand as={Link} to="/">
+  <img src='src/assets/images/DhandaeASY (1).png' alt="DhandaeASY Logo" style={{ width: '100px', height: '100px', }} />
+</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ms-auto"> 

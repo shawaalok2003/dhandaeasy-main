@@ -208,7 +208,7 @@
   background-image: url('../src/assets/images/services-banner-1.png');
   background-size: cover;
   background-position: center;
-  padding: 100px 0;
+  padding: 300px;
 }
 
 .header-content {
@@ -294,4 +294,116 @@
       margin-bottom: 20px; /* Adjust margin bottom for medium-sized devices */
     }
   }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
   
+  /* Style for animated container */
+  .animated-container {
+    position: relative;
+  }
+  
+  /* Style for animated overlay */
+  .animated-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  /* Additional styling for header, title, and paragraph */
+  .header-about {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .header-title {
+    font-size: 48px;
+    color: #333;
+  }
+  
+  .about-title {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .about-image {
+    border-radius: 10px;
+  }
+  
+  /* Style for animated boxes */
+  .animated-box {
+    padding: 20px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .header-title {
+      font-size: 36px;
+    }
+    .about-title {
+      font-size: 28px;
+    }
+  }
+  .hero-bg {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease forwards;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .rounded-lg {
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards 1s;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

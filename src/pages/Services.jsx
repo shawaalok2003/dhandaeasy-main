@@ -14,7 +14,6 @@ const Services = () => {
         <header className="header-services">
       <Container>
         <div className="header-content">
-          <h1 className="header-title">Services</h1>
         </div>
       </Container>
     </header>

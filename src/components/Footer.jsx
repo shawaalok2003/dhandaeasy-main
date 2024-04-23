@@ -1,5 +1,7 @@
+import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import 'boxicons'
+import 'boxicons';
+import '../Footer.css'; // Import the CSS file for styling
 
 const Footer = () => {
   return (
@@ -8,28 +10,31 @@ const Footer = () => {
         <Row>
           {/* Logo title */}
           <Col xs={12} md={3}>
-            <h1>DhandaEasy</h1>
+            <h1 className="logo">DhandaEasy</h1>
           </Col>
           {/* Services section */}
           <Col xs={12} md={3}>
             <h5>Services</h5>
-            <div className='services'>
-            <p>Something</p>
-            <p>Something</p>
-            <p>Something</p>
-            <p>Something</p>
-            <p>Something</p>
-            </div>
+            <ul className='service-list'>
+              <li>Business Planning</li>
+              <li>Consulting Services</li>
+              <li>Startup Support</li>
+              <li>Market Analysis</li>
+              <li>Financial Strategies</li>
+            </ul>
           </Col>
           {/* Contact section */}
           <Col xs={12} md={3}>
             <h5>Contact</h5>
-            <p><box-icon name='phone'></box-icon>Phone: Keu Tulbena...</p>
-            <p><box-icon type='solid' name='stopwatch'></box-icon>Mon - Fri: Dare if you call us!</p>
-            <p><box-icon type='solid' name='envelope'></box-icon>dhandaeasy@gmail.com</p>
-            <p><box-icon type='solid' name='location-plus'></box-icon>Kolkata, West Bengal, India</p>
+            <ul className='contact-list'>
+              <li><box-icon name='phone'></box-icon> Phone: 6290529857</li>
+              <li><box-icon type='solid' name='stopwatch'></box-icon> Mon-Sat 24/7 available</li>
+              <li><box-icon type='solid' name='envelope'></box-icon> dhandaeasy@gmail.com</li>
+              <li><box-icon type='solid' name='location-plus'></box-icon> Kolkata, West Bengal, India</li>
+            </ul>
           </Col>
         </Row>
+        <hr />
         <p className='copyright'>Copyright @ 2024 DhandaEasy</p>
       </Container>
     </footer>
