@@ -57,3 +57,24 @@
     width: auto; /* Adjust the width to maintain aspect ratio */
     height: 60px; /* Set the height of the logo */
   }
+  /* Bootcamp.css */
+
+/* Style for the instructor image */
+.instructor-image {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-top-left-radius: 10px; /* Add rounded corners only to the top left */
+    border-bottom-left-radius: 10px; /* Add rounded corners only to the bottom left */
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+/* Style for the instructor card title */
+.card-title {
+    font-weight: bold;
+}
+
+/* Style for the instructor card text */
+.card-text {
+    font-size: 14px;
+    color: #666; /* Adjust text color as needed */
+}

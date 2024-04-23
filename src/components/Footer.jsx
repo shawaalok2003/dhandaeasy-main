@@ -9,9 +9,7 @@ const Footer = () => {
       <Container>
         <Row>
           {/* Logo title */}
-          <Col xs={12} md={3}>
-            <h1 className="logo">DhandaEasy</h1>
-          </Col>
+          <img src='src/assets/images/DhandaeASY (1).png' alt="DhandaeASY Logo" style={{ width: '250px', height: '250px', }} />
           {/* Services section */}
           <Col xs={12} md={3}>
             <h5>Services</h5>

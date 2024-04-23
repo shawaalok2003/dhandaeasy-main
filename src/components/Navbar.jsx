@@ -18,6 +18,7 @@ const NavbarComponent = () => {
         <Nav.Link as={Link} to="/home">Home</Nav.Link>
         <Nav.Link as={Link} to="/services">Services</Nav.Link>
         <Nav.Link as={Link} to="/about">About</Nav.Link>
+        <Nav.Link as={Link} to="/bootcamp">Bootcamp</Nav.Link>
         <Button variant='primary' className='rounded-lg nav-btn'>
         <a href={`mailto:${emailAddress}`} className="text-white text-decoration-none">Contact Us</a>
         </Button>

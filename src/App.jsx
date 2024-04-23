@@ -3,6 +3,7 @@ import Services from './pages/Services';
 import About from './pages/About';
 import Home from './pages/Home';
 import Nopage from './pages/Nopage';
+import Bootcamp from './pages/Bootcamp';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="*" element={<Nopage />} />
+        <Route path="/bootcamp" element={<Bootcamp/>} />
       </Routes>
     </BrowserRouter>
   );
